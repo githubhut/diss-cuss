@@ -1,0 +1,66 @@
+body{
+    background-image: linear-gradient(#F6B17A, #50727B);
+    height: 98vh;
+}
+.logo{
+    display: block;
+    margin: auto;
+    height: 100px;
+    width: 100px;
+    mix-blend-mode: color-burn;
+}
+.container{
+    border: 2px solid black;
+    border-radius: 10px;
+    max-width: 900px;
+    height: 60vh;
+    margin: auto;
+    overflow-y: auto;
+}
+::-webkit-scrollbar {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #375e69;
+    border-radius: 5px;
+    
+}
+
+::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(#ce9e96, #577d87);
+    border-radius: 5px;
+}
+.message{
+    width: 24%;
+    padding: 10px;
+    margin: 15px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    color:white
+}
+.left{
+    float: left;
+    clear: both;
+}
+.right{
+    float: right;
+    clear: both;
+}
+#send_container{
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 900px;
+    width: 100%;
+    margin-top: 10px;
+}
+#messageInp{
+    width: 90%;
+    height: 35px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.btn{
+    cursor: pointer;
+    height: 35px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
